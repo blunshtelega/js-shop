@@ -1,0 +1,29 @@
+body {
+    font-family: "Lato", "Arial", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 17px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
+
+.container {
+    width: 71.25%;
+    margin: 0 auto;
+}
+
+@media (max-width: $tablet-width) {
+    .container {
+        width: 91.666%;
+    }
+}

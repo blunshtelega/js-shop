@@ -1,0 +1,43 @@
+[{
+        "id_product": 1,
+        "product_name": "Milk bowl",
+        "img_product": "featured-item-1",
+        "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, necessitatibus!",
+        "price": 7500
+    },
+    {
+        "id_product": 2,
+        "product_name": "cappuccino set",
+        "img_product": "featured-item-2",
+        "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, necessitatibus!",
+        "price": 12800
+    },
+    {
+        "id_product": 3,
+        "product_name": "contour vase",
+        "img_product": "featured-item-3",
+        "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, necessitatibus!",
+        "price": 5380
+    },
+    {
+        "id_product": 4,
+        "product_name": "lamp drop",
+        "img_product": "featured-item-4",
+        "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, necessitatibus!",
+        "price": 10100
+    },
+    {
+        "id_product": 5,
+        "product_name": "Golden lamp",
+        "img_product": "featured-item-5",
+        "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, necessitatibus!",
+        "price": 6000
+    },
+    {
+        "id_product": 6,
+        "product_name": "Golden chair",
+        "img_product": "featured-item-6",
+        "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, necessitatibus!",
+        "price": 37000
+    }
+]

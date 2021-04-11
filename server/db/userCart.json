@@ -1,0 +1,75 @@
+{
+    "amount": 46600,
+    "countGoods": 2,
+    "contents": [
+        {
+            "id_product": 1,
+            "product_name": "Milk bowl",
+            "price": 7500,
+            "img_product": "featured-item-1",
+            "quantity": 3
+        },
+        {
+            "id_product": 2,
+            "product_name": "cappuccino set",
+            "price": 12800,
+            "img_product": "featured-item-2",
+            "quantity": 2
+        },
+        {
+            "id_product": 3,
+            "product_name": "contour vase",
+            "price": 5380,
+            "img_product": "featured-item-3",
+            "quantity": 3
+        },
+        {
+            "id_product": 4,
+            "product_name": "lamp drop",
+            "price": 10100,
+            "img_product": "featured-item-4",
+            "quantity": 1
+        },
+        {
+            "id_product": 5,
+            "product_name": "Golden lamp",
+            "price": 6000,
+            "img_product": "featured-item-5",
+            "quantity": 1
+        },
+        {
+            "id_product": 6,
+            "product_name": "Golden chair",
+            "price": 37000,
+            "img_product": "featured-item-6",
+            "quantity": 1
+        },
+        {
+            "quantity": 1,
+            "id_product": 1,
+            "product_name": "Milk bowl",
+            "img_product": "featured-item-1",
+            "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, necessitatibus!",
+            "price": 7500,
+            "imgPath": "img/featured-item-1.jpg"
+        },
+        {
+            "quantity": 1,
+            "id_product": 2,
+            "product_name": "cappuccino set",
+            "img_product": "featured-item-2",
+            "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, necessitatibus!",
+            "price": 12800,
+            "imgPath": "img/featured-item-2.jpg"
+        },
+        {
+            "quantity": 1,
+            "id_product": 3,
+            "product_name": "contour vase",
+            "img_product": "featured-item-3",
+            "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, necessitatibus!",
+            "price": 5380,
+            "imgPath": "img/featured-item-3.jpg"
+        }
+    ]
+}

@@ -1,0 +1,218 @@
+.footer__subscribe {
+    background-image: url(../img/footer-background.jpg);
+    min-height: 448px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(244, 244, 244);
+}
+
+.subscribe-form__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscribe-form__review {
+    min-height: 225px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscribe-form__img {
+    margin: 0 0 30px 0;
+}
+
+.subscribe-form__quote {
+    @include font(20px, 24px, 400);
+    color: $black-color;
+    text-align: center;
+}
+
+.subscribe-form__quote_italic {
+    @include font(20px, 24px, 400);
+    font-style: italic;
+    color: $black-color;
+}
+
+.subscribe-form__form-wrapper {
+    min-height: 145px;
+    width: 560px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-form__text {
+    text-transform: uppercase;
+    @include font(24px, 40px, 400);
+    color: $black-color;
+    margin: 0 0 32px 0;
+}
+
+.subscribe-form__title {
+    @include font(24px, 40px, 700);
+    color: $black-color;
+    display: block;
+    text-transform: uppercase;
+}
+
+.subscribe-form__input {
+    border: none;
+    outline: none;
+    min-height: 49px;
+    background-color: $button-background-grey;
+    padding: 0 0 0 22px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    @include font(14px, 17px, 400);
+    width: 310px;
+}
+
+.subscribe-form__button {
+    width: 100px;
+    min-height: 49px;
+    border: none;
+    outline: none;
+    background-color: $button-pink-color;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: $white-color;
+    @include font(14px, 17px, 400);
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.footer__social {
+    background-color: $black-color;
+}
+
+.social-links__containter {
+    min-height: 79px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-links__copyright {
+    color: $text-white-color;
+    @include font(16px, 19px, 400);
+}
+
+.social-links__list {
+    display: flex;
+    align-items: center;
+}
+
+.social-links__item {
+    height: 32px;
+    width: 32px;
+    background-color: $white-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &_pink {
+        background-color: $button-pink-color;
+    }
+
+    &:hover {
+        background-color: $button-pink-color;
+    }
+
+    &_pink:hover .social-links__svg_white {
+        fill: $black-color;
+    }
+}
+
+.social-links__link {
+    margin: 0 0 0 7px;
+}
+
+.social-links__svg {
+    fill: $black-color;
+
+    &_white {
+        fill: $white-color;
+    }
+}
+
+@media (max-width: $tablet-width) {
+    .footer__subscribe {
+        min-height: 613px;
+        background-position: bottom;
+        background-repeat: no-repeat;
+    }
+
+    .subscribe-form__container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: normal;
+    }
+
+    .footer__subscribe {
+        align-items: normal;
+    }
+
+    .subscribe-form__review {
+        margin-top: 64px;
+    }
+
+    .subscribe-form__form-wrapper {
+        margin: 64px 0 140px 0;
+    }
+
+    .subscribe-form__input {
+        width: 256px;
+    }
+
+    .subscribe-form__text {
+        @include font(18px, 28px, 400);
+    }
+}
+
+@media (max-width: $mobile-width) {
+    .subscribe-form__review {
+        width: 340px;
+    }
+
+    .subscribe-form__form-wrapper {
+        width: 340px;
+    }
+
+    .subscribe-form__text {
+        @include font(14px, 21px, 400);
+    }
+
+    .subscribe-form__input {
+        width: 223px;
+    }
+
+    .subscribe-form__button {
+        width: 90px;
+    }
+
+    .footer__subscribe {
+        background-position-x: -330px;
+    }
+
+    .social-links__containter {
+        flex-direction: column;
+    }
+
+    .social-links__copyright {
+        order: 2;
+        margin: 0 0 7px 0;
+    }
+
+    .social-links__list {
+        margin: 43px 0 0 0;
+    }
+
+    .social-links__containter {
+        min-height: 143px;
+    }
+}
